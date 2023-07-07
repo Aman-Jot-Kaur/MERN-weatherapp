@@ -6,7 +6,7 @@ import "./App.css"
 import Authenticate from './components/Authenticate'
 function App() {
   return (
-    <div className='app' style={{background:`url`}}>
+    <div className='app' >
       <BrowserRouter>
       <Routes>
         <Route element={<Authenticate/>} path="/checkuser"></Route>

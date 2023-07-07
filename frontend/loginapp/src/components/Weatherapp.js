@@ -34,17 +34,19 @@ function Weather() {
   return (
     <div
       style={{
-        height: "100vh",
-        width: "100vw",
+      
+       height:"100vh",
+       width:"100vw",
         display: "flex",
         flexDirection: "column",
         backgroundSize: "cover",
         alignItems: "center",
         justifyContent: "center",
-        fontFamily: "cursive",
+        fontFamily: "cursive",  
         fontSize: "large",
         background: `url("https://images.unsplash.com/photo-1580193769210-b8d1c049a7d9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1474&q=80")`,
         backgroundRepeat: "no-repeat",
+       
       }}
     >
       <div
@@ -60,6 +62,7 @@ function Weather() {
           alignItems: "center",
           justifyContent: "center",
           border: "2px solid lightgray",
+        
         }}
       >
         <h1>weather app</h1>
